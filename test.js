@@ -1,6 +1,6 @@
-import LinkedList from './LinkedList/linkedList'
-import DoublyLinkedList from './LinkedList/doublyLinkedList'
-import CircularLinkedList from './LinkedList/circularLinkedList'
+// import LinkedList from './LinkedList/linkedList'
+// import DoublyLinkedList from './LinkedList/doublyLinkedList'
+// import CircularLinkedList from './LinkedList/circularLinkedList'
 
 // const linkedList = new LinkedList()
 // // console.log(linkedList.indexOf(0))
@@ -32,11 +32,18 @@ import CircularLinkedList from './LinkedList/circularLinkedList'
 // console.log(doublyLinkedList)
 // console.log(doublyLinkedList.toString())
 
-const circularLinkedList = new CircularLinkedList()
-circularLinkedList.push(4)
-circularLinkedList.push(5)
-circularLinkedList.push(6)
-circularLinkedList.push(7)
+// const circularLinkedList = new CircularLinkedList()
+// circularLinkedList.push(4)
+// circularLinkedList.push(5)
+// circularLinkedList.push(6)
+// circularLinkedList.push(7)
 // circularLinkedList.insert(8, 2)
-circularLinkedList.removeAt(1)
-console.log(circularLinkedList)
+// circularLinkedList.removeAt(1)
+// console.log(circularLinkedList)
+
+import { palindromeChecker, hotPotato } from './Queue/useDemo'
+
+console.log('pap', palindromeChecker('pap'))
+
+console.log(hotPotato([1, 2, 3, 4, 5, 6, 7], 4))
+
